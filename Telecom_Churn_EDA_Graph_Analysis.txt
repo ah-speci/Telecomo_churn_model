@@ -1,0 +1,165 @@
+Telecom Customer Churn EDA - Graph Analysis
+
+======================== analyze.ipynb ========================
+
+1.  Churn Distribution
+
+-   Around 26% of customers have churned, while 74% are retained.
+-   The dataset is moderately imbalanced, so evaluation metrics like
+    Precision, Recall, F1-score, and ROC-AUC should be considered along
+    with accuracy.
+
+2.  Tenure Distribution
+
+-   Most customers have relatively short tenures.
+-   The dataset contains many new customers and fewer long-term
+    customers.
+
+3.  MonthlyCharges Distribution
+
+-   Monthly charges range from approximately 18 to 118.
+-   Charges are spread across different service plans without major
+    outliers.
+
+4.  TotalCharges Distribution
+
+-   Total charges are right-skewed.
+-   Most customers have lower lifetime spending, while long-term
+    customers accumulate much higher charges.
+
+======================== day2.ipynb ========================
+
+5.  Gender vs Churn
+
+-   Male and female customers show nearly identical churn rates.
+-   Gender has little influence on churn.
+
+6.  SeniorCitizen vs Churn
+
+-   Senior citizens have a higher churn rate.
+-   Age group contributes moderately to churn prediction.
+
+7.  Partner vs Churn
+
+-   Customers without a partner churn more frequently.
+-   Having a partner indicates greater customer stability.
+
+8.  Dependents vs Churn
+
+-   Customers without dependents are more likely to churn.
+-   Customers with dependents tend to stay longer.
+
+9.  Contract vs Churn
+
+-   Month-to-month contracts have the highest churn.
+-   Two-year contracts have the lowest churn.
+-   Contract type is one of the strongest predictors of churn.
+
+10. PaperlessBilling vs Churn
+
+-   Customers using paperless billing churn more frequently.
+-   This may be associated with month-to-month contracts.
+
+11. PaymentMethod vs Churn
+
+-   Electronic Check users have the highest churn.
+-   Automatic payment methods are associated with better customer
+    retention.
+
+12. Tenure Groups vs Churn
+
+-   Customers in their first year have the highest churn.
+-   Churn decreases steadily as tenure increases.
+
+13. TotalCharges Groups vs Churn
+
+-   Customers with lower total charges churn more often.
+-   Higher total charges indicate long-term, retained customers.
+
+======================== day3.ipynb ========================
+
+14. InternetService vs Churn
+
+-   Fiber Optic customers have the highest churn.
+-   DSL customers churn less, while customers without internet service
+    churn the least.
+
+15. PhoneService vs Churn
+
+-   Phone service has very little effect on churn.
+-   Churn rates are similar for both groups.
+
+16. MultipleLines vs Churn
+
+-   Customers with multiple lines show a slightly higher churn rate.
+-   The difference is relatively small.
+
+17. OnlineSecurity vs Churn
+
+-   Customers without online security churn significantly more.
+-   Online security improves customer retention.
+
+18. OnlineBackup vs Churn
+
+-   Customers without online backup churn more frequently.
+-   Additional services improve retention.
+
+19. DeviceProtection vs Churn
+
+-   Customers without device protection are more likely to churn.
+-   Protection services encourage customer loyalty.
+
+20. TechSupport vs Churn
+
+-   Customers without technical support have a much higher churn rate.
+-   Tech support is one of the strongest retention-related services.
+
+21. StreamingTV vs Churn
+
+-   Streaming TV users show a slightly higher churn rate.
+-   The effect is weaker than contract type or tenure.
+
+22. StreamingMovies vs Churn
+
+-   Streaming movie users also show a slightly higher churn rate.
+-   This feature alone is not a strong predictor.
+
+23. MonthlyCharges Boxplot
+
+-   Churned customers generally pay higher monthly charges.
+-   Higher monthly costs may contribute to churn.
+
+24. TotalCharges Boxplot
+
+-   Churned customers usually have lower total charges because they
+    leave earlier.
+-   Long-term customers accumulate much higher total charges.
+
+25. Tenure Boxplot
+
+-   Churned customers have much shorter tenures.
+-   Retained customers stay significantly longer.
+
+26. Correlation Heatmap
+
+-   Most features have weak to moderate correlations.
+-   Contract type, tenure, online security, and tech support show
+    stronger relationships with churn.
+-   No severe multicollinearity is observed.
+
+======================== Overall EDA Summary ========================
+
+-   Approximately 26% of customers have churned.
+-   Month-to-month contracts experience the highest churn.
+-   Short-tenure customers are most likely to churn.
+-   Higher monthly charges are associated with increased churn.
+-   Fiber Optic customers have the highest churn among internet service
+    types.
+-   Customers without Online Security, Tech Support, Online Backup, or
+    Device Protection are more likely to churn.
+-   Long-tenure customers, two-year contracts, and automatic payment
+    methods are associated with higher retention.
+-   Gender has little effect on churn, while SeniorCitizen has a
+    moderate impact.
+-   Contract type, tenure, monthly charges, and value-added services are
+    the most important features for predicting churn.
