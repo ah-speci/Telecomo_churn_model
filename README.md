@@ -158,13 +158,13 @@ The final model was evaluated using the following metrics:
 Clone the repository:
 
 ```bash
-git clone https://github.com/ah-spec/Telecom-Churn-Prediction.git
+git clone https://github.com/ah-spec/Telecom-churn-model.git
 ```
 
 Move into the project directory:
 
 ```bash
-cd Telecom-Churn-Prediction
+cd Telecom-churn-model
 ```
 
 Install the required dependencies:
