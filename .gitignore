@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Conda
+.conda/
+conda-meta/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Python distribution
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Model files (Uncomment if models are too large)
+# *.pkl
+# *.joblib
+# *.h5
+# *.onnx
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Matplotlib cache
+.matplotlib/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Local Jupyter runtime
+.jupyter/
+
+# Rope
+.ropeproject/
+
+# Spyder
+.spyproject/
+
+# IPython
+profile_default/
+ipython_config.py
