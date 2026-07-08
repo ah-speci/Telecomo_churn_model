@@ -208,7 +208,7 @@ Execute the notebooks in the following order:
 
 **Sahil Chandra**
 
-GitHub: https://github.com/ah-spec
+GitHub: https://github.com/ah-speci
 
 ---
 
